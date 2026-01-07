@@ -13,9 +13,7 @@ function makeAdder() {
       sum = 0;
 
       return result;
-    }
-
-    if (arguments.length !== 0) {
+    } else {
       sum += value;
 
       return adder;
